@@ -1,0 +1,8 @@
+{
+  "name": "core.less",
+  "version": "0.0.1",
+  "main": ["./core.less"],
+  "dependencies": {
+    "bootstrap-loader": "git://github.com/sparanoid/bootstrap-loader.git#*"
+  }
+}

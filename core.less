@@ -1,0 +1,64 @@
+/*!
+ * (c) Project Name
+ *//*!
+*/
+
+/*!
+ * Bootstrap Loader 1.0
+ *
+ * by Tunghsiao Liu
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * For those who use Bootstrap everyday
+ *//*!
+*/
+
+// CSS Reset & responsive layout from original Bootstrap
+@import "bootstrap-loader";
+@import "responsive-loader";
+
+// http://nicolasgallagher.com/micro-clearfix-hack/
+//
+// For modern browsers
+// 1. The original space content hack is removed here. No need to support Opera on my personal site.
+// 2. The use of `table` rather than `block` is only necessary if using `:before` to contain the top-margins of child elements.
+
+.cf {
+  &:before,
+  &:after {
+    content: ""; /* 1 */
+    display: table; /* 2 */
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Absolute Centered (Vertical & Horizontal) Element LESS Mixin
+// http://codepen.io/sparanoid/pen/mcfvb
+
+.centered(@width, @height, @padding) {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: @width;
+  height: @height;
+  margin-top: -@height / 2 - @padding;
+  margin-left: -@width / 2 - @padding;
+  padding: @padding;
+}
+
+//
+// BEGIN override Bootstrap variables
+// --------------------------------------------------
+@linkColor:             #e63;
+
+// asian language hotfix
+@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, 'Hiragino Sans GB', sans-serif;
+@serifFontFamily:       Georgia, "Times New Roman", Times, 'Hiragino Mincho ProN', serif;
+@monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
+
+//
+// END override Bootstrap variables
+// --------------------------------------------------

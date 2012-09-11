@@ -1,3 +1,11 @@
+# osx noise
+.DS_Store
+profile
+
+# nodejs noise
+node_modules
+npm-debug.log
+
 lib-cov
 *.seed
 *.log
