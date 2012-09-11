@@ -15,15 +15,14 @@
 */
 
 // CSS Reset & responsive layout from original Bootstrap
-@import "bootstrap-loader";
-@import "responsive-loader";
+@import "../bootstrap-loader/bootstrap-loader";
+@import "../bootstrap-loader/responsive-loader";
 
 // http://nicolasgallagher.com/micro-clearfix-hack/
 //
 // For modern browsers
 // 1. The original space content hack is removed here. No need to support Opera on my personal site.
 // 2. The use of `table` rather than `block` is only necessary if using `:before` to contain the top-margins of child elements.
-
 .cf {
   &:before,
   &:after {
@@ -37,7 +36,6 @@
 
 // Absolute Centered (Vertical & Horizontal) Element LESS Mixin
 // http://codepen.io/sparanoid/pen/mcfvb
-
 .centered(@width, @height, @padding) {
   position: fixed;
   top: 50%;
