@@ -1,12 +1,12 @@
 core.less
 =========
 
-A starter kit built with [Bootstrap Loader](http://github.com/sparanoid/bootstrap-loader) for quick front-end development. Packages are managed by [BOWER](http://github.com/twitter/bower).
+A starter kit built with [Bootstrap Loader](http://github.com/sparanoid/bootstrap-loader) for quick front-end development. Packages are managed by [Bower](http://github.com/twitter/bower).
 
 Basic Usage
 -----------
 
-You need to install BOWER fisrt. [More information about BOWER](http://github.com/twitter/bower).
+You need to install Bower fisrt. [More information about Bower](http://github.com/twitter/bower).
 
     npm install bower -g
 
