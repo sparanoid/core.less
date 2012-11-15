@@ -12,7 +12,7 @@ You need to install Bower fisrt. [More information about Bower](http://github.co
 
 Navigate to your project root and install core.less
 
-    bower install git://github.com/sparanoid/core.less.git
+    bower install core.less
 
 Creating a node-static Server for Current Directory
 ---------------------------------------------------
