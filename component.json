@@ -1,8 +1,8 @@
 {
   "name": "core.less",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": ["./core.less"],
   "dependencies": {
-    "bootstrap": ">=2.2.2"
+    "bootstrap": ">=2.2.0"
   }
 }
