@@ -1,6 +1,6 @@
 {
   "name": "core.less",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": ["./core.less"],
   "dependencies": {
     "bootstrap": ">=2.2.0"
