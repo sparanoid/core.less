@@ -31,7 +31,7 @@
 
 // Absolute Centered (Vertical & Horizontal) Element LESS Mixin
 // http://codepen.io/sparanoid/pen/mcfvb
-.centered(@width, @height, @padding) {
+.centered(@width: 400px, @height: 300px, @padding: 10px) {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -41,6 +41,20 @@
   margin-left: -@width / 2 - @padding;
   padding: @padding;
 }
+
+// @font-face Mixin
+// I personally removed useless IE9 Compat Modes and IE6-IE8 support, and legacy iOS .svg font support, nobody should cares about that, right?
+.font-face(@fontFamily, @fontFilename) {
+	font-family: '@fontFamily';
+	src: url('@fontFilename.woff') format('woff'), /* Modern Browsers */
+	     url('@fontFilename.ttf')  format('truetype'); /* Legacy Safari, Android, iOS */
+}
+
+// WebKit filter
+.filter(@effects)
+  -webkit-filter: @effects;
+          filter: @effects;
+)
 
 //
 // BEGIN override Bootstrap variables
