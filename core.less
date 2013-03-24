@@ -1,5 +1,5 @@
 /*!
- * core.less 0.0.8
+ * core.less 0.0.9
  *
  * by Tunghsiao Liu
  * Licensed under the Apache License v2.0
@@ -27,6 +27,13 @@
   &:after {
     clear: both;
   }
+}
+
+// This fix some peformance issues in WebKit, such as transform, webkit-filter in retina displays, and more.
+.webkit-fix {
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
 }
 
 // Absolute Centered (Vertical & Horizontal) Element LESS Mixin
