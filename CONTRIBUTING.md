@@ -16,4 +16,4 @@ If you have typos or corrections contributions, please initiate a discussion via
 
 5. Run `grunt test` to see if everthing works without any warning or error.
 
-6. Send me push request
+6. Send me push request.

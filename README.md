@@ -1,7 +1,7 @@
 # core.less [![Build Status](https://travis-ci.org/sparanoid/core.less.png)](https://travis-ci.org/sparanoid/core.less) [![Node Dependencies](https://david-dm.org/sparanoid/core.less.png)](https://david-dm.org/sparanoid/core.less)
 
 
-A starter kit for [Bootstrap](https://github.com/twitter/bootstrap) for quick front-end development. Packages are managed by [Bower](https://github.com/twitter/bower).
+A starter kit for [Bootstrap](https://github.com/twitter/bootstrap) for quick front-end development. Packages are managed by [Bower](https://github.com/bower/bower).
 
 ## Basic Usage
 
