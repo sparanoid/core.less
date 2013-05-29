@@ -6,9 +6,9 @@ module.exports = (grunt) ->
 
   # Configurable paths
   coreConfig =
-    app: "core.less"
+    app: "core"
     assets: "."
-    dist: "core.less"
+    dist: "core"
     pkg: grunt.file.readJSON("package.json")
     banner: do ->
       banner = "/*\n"
