@@ -1,28 +1,17 @@
-/*!
- * core.less 0.0.9
- *
- * by Tunghsiao Liu
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * For smart web designers
- *//*!
-*/
-
 // CSS Reset & responsive layout from original Bootstrap
-@import "../bootstrap/less/bootstrap";
-@import "../bootstrap/less/responsive";
+// @import "../bootstrap/less/bootstrap";
+// @import "../bootstrap/less/responsive";
 
 // http://nicolasgallagher.com/micro-clearfix-hack/
 //
 // For modern browsers
-// 1. The original space content hack is removed here. No need to support Opera on my personal site.
-// 2. The use of `table` rather than `block` is only necessary if using `:before` to contain the top-margins of child elements.
+// 1. The use of `table` rather than `block` is only necessary if using `:before` to contain the top-margins of child elements.
+// 2. The original space content hack is removed here. No need to support Opera on my personal site.
 .cf {
   &:before,
   &:after {
-    content: ""; /* 1 */
-    display: table; /* 2 */
+    display: table; /* 1 */
+    content: ""; /* 2 */
   }
   &:after {
     clear: both;

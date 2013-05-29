@@ -1,11 +1,3 @@
-# osx noise
-.DS_Store
-profile
-
-# nodejs noise
-node_modules
-npm-debug.log
-
 lib-cov
 *.seed
 *.log
@@ -19,5 +11,10 @@ pids
 logs
 results
 
-node_modules
 npm-debug.log
+
+node_modules
+dist
+.tmp
+.sass-cache
+app/bower_components

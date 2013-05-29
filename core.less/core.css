@@ -1,0 +1,8 @@
+/*
+ * (c) Tunghsiao Liu.
+ *
+ * core.less - v0.0.9 (05-29-2013)
+ * http://sparanoid.com/
+ * Apache - http://www.apache.org/licenses/LICENSE-2.0
+ */
+.cf:before,.cf:after{display:table;content:""}.cf:after{clear:both}.webkit-fix{-webkit-transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;-webkit-perspective:1000}:root{text-rendering:optimizelegibility;image-rendering:optimizequality}

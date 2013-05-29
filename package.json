@@ -1,0 +1,30 @@
+{
+  "name": "core.less",
+  "version": "0.0.9",
+  "description": "A starter kit for Bootstrap for quick front-end development. Packages are managed by Bower",
+  "main": "core.less/core.less",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sparanoid/core.less.git"
+  },
+  "author": "Tunghsiao Liu",
+  "homepage": "http://sparanoid.com/",
+  "license": {
+    "type": "Apache",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-contrib-less": "~0.5.1",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-coffeelint": "0.0.6",
+    "grunt-recess": "~0.3.3",
+    "matchdep": "~0.1.2"
+  }
+}
