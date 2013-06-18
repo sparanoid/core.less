@@ -5,11 +5,7 @@ A starter kit for [Bootstrap](https://github.com/twitter/bootstrap) for quick fr
 
 ## Basic Usage
 
-You need to install Bower fisrt. [More information about Bower](https://github.com/twitter/bower).
-
-	npm install bower -g
-
-Navigate to your project root and install core.less
+You need to install Bower fisrt. You can [read more information about Bower](https://github.com/twitter/bower) first. After installing Bower, navigate to your project root and install core.less:
 
 	bower install core.less
 
