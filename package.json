@@ -1,6 +1,6 @@
 {
   "name": "core.less",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A starter kit for Bootstrap for quick front-end development. Packages are managed by Bower",
   "main": "core/core.less",
   "scripts": {
