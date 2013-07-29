@@ -40,10 +40,10 @@
 
 // @font-face Mixin
 // I personally removed useless IE9 Compat Modes and IE6-IE8 support, and legacy iOS .svg font support, nobody should cares about that, right?
-.font-face(@fontFamily, @fontFilename) {
-  font-family: '@fontFamily';
-  src: url('@fontFilename.woff') format('woff'),
-       url('@fontFilename.ttf')  format('truetype');
+.font-face(@font-family, @font-filename) {
+  font-family: '@font-family';
+  src: url('@font-filename.woff') format('woff'),
+       url('@font-filename.ttf')  format('truetype');
 }
 
 // WebKit filter
@@ -67,12 +67,12 @@
 //
 // BEGIN override Bootstrap variables
 // --------------------------------------------------
-// @linkColor:             #e63;
+// @link-color:             #e63;
 
 // Asian language hotfix
-@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
-@serifFontFamily:       Georgia, "Times New Roman", Times, "Hiragino Mincho ProN", serif;
-@monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
+@sans-font-family:      "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+@serif-font-family:     Georgia, "Times New Roman", Times, "Hiragino Mincho ProN", serif;
+@mono-font-family:      Menlo, Monaco, Consolas, "Courier New", monospace;
 
 //
 // END override Bootstrap variables
