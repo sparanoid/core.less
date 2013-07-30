@@ -58,6 +58,13 @@
        box-sizing: border-box;
 }
 
+// Border radius, missing from Bootstrap 3.0.0-rc1
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
 // Padding box
 .padding-box {
   -moz-background-clip: padding-box;
