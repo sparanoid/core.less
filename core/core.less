@@ -18,7 +18,7 @@
   }
 }
 
-// This fix some peformance issues in WebKit, such as transform, webkit-filter in retina displays, and more.
+// This fix some peformance issues in WebKit, such as transform, webkit-filter in retina displays, and more. But it may also introduce some new problems, use with caution.
 .webkit-fix {
   -webkit-transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
@@ -86,7 +86,7 @@
 // END override Bootstrap variables
 // --------------------------------------------------
 
-:root {
+html {
   text-rendering: optimizelegibility;
   image-rendering: optimizequality;
 }
