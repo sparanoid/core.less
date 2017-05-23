@@ -1,5 +1,7 @@
 # core.less [![Build Status](https://travis-ci.org/sparanoid/core.less.svg)](https://travis-ci.org/sparanoid/core.less) [![devDependency Status](https://david-dm.org/sparanoid/core.less/dev-status.svg)](https://david-dm.org/sparanoid/core.less#info=devDependencies)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sparanoid/core.less.svg)](https://greenkeeper.io/)
+
 A starter kit for [Bootstrap](https://github.com/twitter/bootstrap) for quick front-end development. Packages are managed by [Bower](https://github.com/bower/bower).
 
 ## Basic Usage
