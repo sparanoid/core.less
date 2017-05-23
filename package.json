@@ -18,13 +18,13 @@
   },
   "readmeFilename": "README.md",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.1",
-    "grunt-contrib-less": "~0.8.1",
-    "grunt-contrib-cssmin": "~0.7.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-coffeelint": "0.0.7",
-    "grunt-recess": "~0.4.0",
-    "matchdep": "~0.3.0"
+    "grunt": "~1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-contrib-less": "~1.4.1",
+    "grunt-contrib-cssmin": "~2.2.0",
+    "grunt-contrib-clean": "~1.1.0",
+    "grunt-coffeelint": "0.0.16",
+    "grunt-recess": "~1.0.1",
+    "matchdep": "~1.0.1"
   }
 }
